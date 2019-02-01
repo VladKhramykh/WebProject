@@ -25,5 +25,15 @@
         <url-pattern>/list</url-pattern>
     </servlet-mapping>
 
+    <!-- Authentication servlet-->
+    <servlet>
+        <servlet-name>authentication</servlet-name>
+        <servlet-class>app.servlets.AuthenticationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>authentication</servlet-name>
+        <url-pattern>/authentication</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

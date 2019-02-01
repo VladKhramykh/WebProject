@@ -1,0 +1,1 @@
+package app.model;public class Const {    public static String USER_TABLE = "users";    public static String USER_ID = "idusers";    public static String USER_NAME = "userName";    public static String USER_PASSWORD = "password";}
